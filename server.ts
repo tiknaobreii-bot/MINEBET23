@@ -1107,6 +1107,44 @@ app.post('/api/games/crash/cashout', authenticatePlayer, (req, res) => {
   });
 });
 
+// Finish lost crash round (cleanup when player doesn't cash out in time)
+app.post('/api/games/crash/finish-lost', authenticatePlayer, (req, res) => {
+  const player = (req as any).player as Player;
+  const { roundId } = req.body;
+
+  const round = activeCrashRounds.get(roundId);
+  if (!round) {
+    return res.json({ success: true, newBalance: player.balance });
+  }
+  if (round.playerId !== player.id) {
+    return res.status(403).json({ error: 'Esta partida não pertence a você.' });
+  }
+  if (round.cashedOut) {
+    return res.json({ success: true, newBalance: player.balance });
+  }
+
+  round.cashedOut = true;
+  const betRecord: Bet = {
+    id: 'bet-' + crypto.randomUUID().slice(0, 8),
+    playerId: player.id,
+    playerUsername: player.username,
+    game: 'crash',
+    amount: round.amount,
+    multiplier: 0,
+    payout: 0,
+    profit: -round.amount,
+    win: false,
+    details: { crashPoint: round.crashPoint, cashoutAt: null },
+    createdAt: new Date().toISOString()
+  };
+  db.bets.unshift(betRecord);
+  if (db.bets.length > 500) db.bets.pop();
+  saveDatabase();
+  activeCrashRounds.delete(roundId);
+
+  return res.json({ success: true, newBalance: player.balance });
+});
+
 // ==========================================
 // 5. MINES (CAMPO MINADO DE DIAMANTES - ESTILO BLAZE)
 // ==========================================
@@ -2105,7 +2143,6 @@ app.get('/api/admin/players', authenticateAdmin, (req, res) => {
       return {
         id: p.id,
         username: p.username,
-        password: p.password,
         balance: p.balance,
         winRatePercent: p.winRatePercent,
         effectiveRate: rateInfo.percent,

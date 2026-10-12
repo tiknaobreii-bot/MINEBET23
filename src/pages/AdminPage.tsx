@@ -37,8 +37,8 @@ import {
 
 export const AdminPage: React.FC = () => {
   const [isAdminAuthenticated, setIsAdminAuthenticated] = useState<boolean>(false);
-  const [adminUsername, setAdminUsername] = useState<string>('admin');
-  const [adminPassword, setAdminPassword] = useState<string>('admin123');
+  const [adminUsername, setAdminUsername] = useState<string>('');
+  const [adminPassword, setAdminPassword] = useState<string>('');
   const [authLoading, setAuthLoading] = useState<boolean>(false);
   const [authError, setAuthError] = useState<string | null>(null);
 
@@ -339,7 +339,7 @@ export const AdminPage: React.FC = () => {
             </div>
 
             <div className="p-3 bg-slate-900 rounded-xl border border-slate-800 text-[11px] text-slate-400">
-              Credenciais padrão configuradas: <code className="text-amber-400">admin</code> / <code className="text-amber-400">admin123</code>
+              Informe suas credenciais de administrador para acessar o painel.
             </div>
 
             <button
@@ -507,7 +507,7 @@ export const AdminPage: React.FC = () => {
                 Jogadores Cadastrados
               </h3>
               <p className="text-xs text-slate-400">
-                Lista de jogadores, senhas em texto puro, saldos e controle de chance individual.
+                Lista de jogadores, saldos e controle de chance individual.
               </p>
             </div>
 
@@ -528,7 +528,6 @@ export const AdminPage: React.FC = () => {
               <thead>
                 <tr className="border-b border-slate-800 text-slate-400 font-semibold uppercase text-[10px] tracking-wider">
                   <th className="py-3 px-3">Jogador</th>
-                  <th className="py-3 px-3">Senha (Texto)</th>
                   <th className="py-3 px-3 text-right">Saldo 💎</th>
                   <th className="py-3 px-3 text-center">% Valendo (Global / Individual)</th>
                   <th className="py-3 px-3 text-right">Ações</th>
@@ -549,9 +548,7 @@ export const AdminPage: React.FC = () => {
                         </div>
                         <span>{p.username}</span>
                       </td>
-                      <td className="py-3 px-3 font-mono text-amber-300 font-bold bg-amber-500/5 px-2 rounded">
-                        {p.password || '••••••'}
-                      </td>
+
                       <td className="py-3 px-3 text-right font-mono font-bold text-cyan-400 text-sm">
                         {p.balance.toLocaleString('pt-BR')} 💎
                       </td>
