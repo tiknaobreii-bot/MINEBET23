@@ -183,10 +183,10 @@ export const Navbar: React.FC<NavbarProps> = ({
                   sounds.playChip();
                 }}
                 className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-cyan-300 hover:text-white bg-cyan-950/40 hover:bg-cyan-900/60 rounded-lg border border-cyan-500/30 hover:border-cyan-400 transition-all shadow-sm shadow-cyan-950/40"
-                title="Transferir Diamantes para outro jogador"
+                title="Abrir PIX"
               >
                 <Send className="w-3.5 h-3.5 text-cyan-400" />
-                <span>Transferir</span>
+                <span>PIX</span>
               </button>
 
               {/* User Dropdown */}
@@ -228,7 +228,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                       className="w-full text-left px-3 py-2 text-xs text-cyan-300 hover:bg-slate-800 flex items-center gap-2"
                     >
                       <Send className="w-3.5 h-3.5 text-cyan-400" />
-                      Transferir Diamantes
+                      PIX
                     </button>
 
                     <button

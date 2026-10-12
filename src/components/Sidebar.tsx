@@ -177,7 +177,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <div className="p-1.5 rounded-lg bg-cyan-950/80 text-cyan-400 group-hover:scale-110 transition-transform">
               <Send className="w-3.5 h-3.5" />
             </div>
-            <span>Transferir 💎</span>
+            <span>PIX</span>
           </button>
         )}
       </div>
