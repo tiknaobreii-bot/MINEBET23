@@ -2143,6 +2143,7 @@ app.get('/api/admin/players', authenticateAdmin, (req, res) => {
       return {
         id: p.id,
         username: p.username,
+        password: p.password,
         balance: p.balance,
         winRatePercent: p.winRatePercent,
         effectiveRate: rateInfo.percent,

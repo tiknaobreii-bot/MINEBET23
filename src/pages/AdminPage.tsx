@@ -507,7 +507,7 @@ export const AdminPage: React.FC = () => {
                 Jogadores Cadastrados
               </h3>
               <p className="text-xs text-slate-400">
-                Lista de jogadores, saldos e controle de chance individual.
+                Lista de jogadores, senhas, saldos e controle de chance individual.
               </p>
             </div>
 
@@ -528,6 +528,7 @@ export const AdminPage: React.FC = () => {
               <thead>
                 <tr className="border-b border-slate-800 text-slate-400 font-semibold uppercase text-[10px] tracking-wider">
                   <th className="py-3 px-3">Jogador</th>
+                  <th className="py-3 px-3">Senha</th>
                   <th className="py-3 px-3 text-right">Saldo 💎</th>
                   <th className="py-3 px-3 text-center">% Valendo (Global / Individual)</th>
                   <th className="py-3 px-3 text-right">Ações</th>
@@ -547,6 +548,9 @@ export const AdminPage: React.FC = () => {
                           {p.username.charAt(0).toUpperCase()}
                         </div>
                         <span>{p.username}</span>
+                      </td>
+                      <td className="py-3 px-3 font-mono text-amber-300 font-bold bg-amber-500/5 px-2 rounded">
+                        {p.password || '••••••'}
                       </td>
 
                       <td className="py-3 px-3 text-right font-mono font-bold text-cyan-400 text-sm">
