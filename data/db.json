@@ -1,0 +1,3122 @@
+{
+  "players": [
+    {
+      "id": "p-steve",
+      "username": "Steve",
+      "password": "steve123",
+      "balance": 300,
+      "winRatePercent": null,
+      "createdAt": "2026-10-09T21:14:44.147Z",
+      "lastLoginAt": "2026-10-12T21:45:53.464Z"
+    },
+    {
+      "id": "p-alex",
+      "username": "Alex_Gamer",
+      "password": "alex2026",
+      "balance": 670,
+      "winRatePercent": null,
+      "createdAt": "2026-10-10T21:14:44.147Z",
+      "lastLoginAt": "2026-10-12T21:14:44.147Z"
+    },
+    {
+      "id": "p-diamondking",
+      "username": "DiamondKing",
+      "password": "kingminer",
+      "balance": 1450,
+      "winRatePercent": null,
+      "createdAt": "2026-10-11T21:14:44.147Z",
+      "lastLoginAt": "2026-10-12T21:14:44.147Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin-1",
+      "username": "admin",
+      "password": "admin123",
+      "createdAt": "2026-10-12T21:14:44.147Z"
+    }
+  ],
+  "bets": [
+    {
+      "id": "bet-sim-4d37d6",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "roulette",
+      "amount": 100,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -100,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:46:24.054Z"
+    },
+    {
+      "id": "bet-sim-b014a7",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "coinflip",
+      "amount": 20,
+      "multiplier": 5,
+      "payout": 100,
+      "profit": 80,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:46:16.053Z"
+    },
+    {
+      "id": "bet-sim-9d7c51",
+      "playerId": "sim-Notch",
+      "playerUsername": "Notch",
+      "game": "roulette",
+      "amount": 5,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -5,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:46:00.052Z"
+    },
+    {
+      "id": "bet-e832654f",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": null,
+      "payout": null,
+      "profit": null,
+      "win": true,
+      "details": {
+        "crashPoint": 1.53,
+        "cashoutAt": null
+      },
+      "createdAt": "2026-10-12T21:44:59.530Z"
+    },
+    {
+      "id": "bet-sim-c3bd02",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "crash",
+      "amount": 500,
+      "multiplier": 14,
+      "payout": 7000,
+      "profit": 6500,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:44:57.115Z"
+    },
+    {
+      "id": "bet-cdc1d3b9",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 2.89,
+      "payout": 28,
+      "profit": 18,
+      "win": true,
+      "details": {
+        "crashPoint": 6.56,
+        "cashoutAt": 2.89
+      },
+      "createdAt": "2026-10-12T21:44:43.906Z"
+    },
+    {
+      "id": "bet-sim-e909a6",
+      "playerId": "sim-GamerBR_12",
+      "playerUsername": "GamerBR_12",
+      "game": "slots",
+      "amount": 250,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -250,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:44:41.114Z"
+    },
+    {
+      "id": "bet-4c97360f",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 3,
+      "payout": 30,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "crashPoint": 4.05,
+        "cashoutAt": 3
+      },
+      "createdAt": "2026-10-12T21:44:37.807Z"
+    },
+    {
+      "id": "bet-sim-f0aecf",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 5,
+      "payout": 50,
+      "profit": 40,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:44:33.113Z"
+    },
+    {
+      "id": "bet-79ebc925",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 1.14,
+      "payout": 11,
+      "profit": 1,
+      "win": true,
+      "details": {
+        "crashPoint": 1.67,
+        "cashoutAt": 1.14
+      },
+      "createdAt": "2026-10-12T21:44:13.712Z"
+    },
+    {
+      "id": "bet-sim-16132e",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "tower",
+      "amount": 5,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -5,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:44:09.110Z"
+    },
+    {
+      "id": "bet-sim-0ac83a",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "slots",
+      "amount": 100,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -100,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:44:01.111Z"
+    },
+    {
+      "id": "bet-0dc5434d",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 1.99,
+      "payout": 19,
+      "profit": 9,
+      "win": true,
+      "details": {
+        "crashPoint": 2.51,
+        "cashoutAt": 1.99
+      },
+      "createdAt": "2026-10-12T21:43:57.224Z"
+    },
+    {
+      "id": "bet-sim-23e322",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "mines",
+      "amount": 250,
+      "multiplier": 2.8,
+      "payout": 700,
+      "profit": 450,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:43:53.110Z"
+    },
+    {
+      "id": "bet-sim-08d5a9",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "dice",
+      "amount": 5,
+      "multiplier": 5,
+      "payout": 25,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:43:45.109Z"
+    },
+    {
+      "id": "bet-sim-cd902a",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "slots",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:43:29.108Z"
+    },
+    {
+      "id": "bet-sim-e0c9eb",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "coinflip",
+      "amount": 500,
+      "multiplier": 2,
+      "payout": 1000,
+      "profit": 500,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:43:21.107Z"
+    },
+    {
+      "id": "bet-sim-40859a",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "mines",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:43:13.105Z"
+    },
+    {
+      "id": "bet-sim-972f0b",
+      "playerId": "sim-Notch",
+      "playerUsername": "Notch",
+      "game": "tower",
+      "amount": 50,
+      "multiplier": 5,
+      "payout": 250,
+      "profit": 200,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:43:05.104Z"
+    },
+    {
+      "id": "bet-sim-8209ed",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "crash",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:42:57.103Z"
+    },
+    {
+      "id": "bet-sim-aaedb5",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "tower",
+      "amount": 50,
+      "multiplier": 2.8,
+      "payout": 140,
+      "profit": 90,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:42:49.103Z"
+    },
+    {
+      "id": "bet-sim-bb045c",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "coinflip",
+      "amount": 50,
+      "multiplier": 2.8,
+      "payout": 140,
+      "profit": 90,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:42:33.101Z"
+    },
+    {
+      "id": "bet-sim-ed5988",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:42:25.100Z"
+    },
+    {
+      "id": "bet-sim-cf3d39",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "roulette",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:42:17.099Z"
+    },
+    {
+      "id": "bet-sim-5fb815",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "mines",
+      "amount": 250,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -250,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:41:53.096Z"
+    },
+    {
+      "id": "bet-sim-008581",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:41:45.095Z"
+    },
+    {
+      "id": "bet-sim-e39bc3",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "tower",
+      "amount": 50,
+      "multiplier": 3.5,
+      "payout": 175,
+      "profit": 125,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:41:37.095Z"
+    },
+    {
+      "id": "bet-sim-17d3b8",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 5,
+      "payout": 50,
+      "profit": 40,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:41:21.093Z"
+    },
+    {
+      "id": "bet-sim-f345e1",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "roulette",
+      "amount": 500,
+      "multiplier": 2,
+      "payout": 1000,
+      "profit": 500,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:41:13.091Z"
+    },
+    {
+      "id": "bet-sim-aad956",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "coinflip",
+      "amount": 500,
+      "multiplier": 1.5,
+      "payout": 750,
+      "profit": 250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:41:05.091Z"
+    },
+    {
+      "id": "bet-sim-c08a63",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "crash",
+      "amount": 50,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -50,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:40:33.085Z"
+    },
+    {
+      "id": "bet-sim-7dd788",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "slots",
+      "amount": 20,
+      "multiplier": 1.5,
+      "payout": 30,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:40:25.085Z"
+    },
+    {
+      "id": "bet-sim-e13742",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "slots",
+      "amount": 5,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -5,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:40:17.083Z"
+    },
+    {
+      "id": "bet-sim-6fef8a",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "crash",
+      "amount": 5,
+      "multiplier": 3.5,
+      "payout": 17,
+      "profit": 12,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:40:01.081Z"
+    },
+    {
+      "id": "bet-sim-aba868",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "roulette",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:39:21.077Z"
+    },
+    {
+      "id": "bet-f9784b0f",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 49.25,
+      "payout": 492,
+      "profit": 482,
+      "win": true,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 99.12
+      },
+      "createdAt": "2026-10-12T21:39:13.121Z"
+    },
+    {
+      "id": "bet-sim-8dfb92",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "tower",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:39:13.076Z"
+    },
+    {
+      "id": "bet-1a867aad",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 88.05
+      },
+      "createdAt": "2026-10-12T21:39:11.771Z"
+    },
+    {
+      "id": "bet-2e528e09",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 1.05,
+      "payout": 10,
+      "profit": 0,
+      "win": true,
+      "details": {
+        "crashPoint": 1.66,
+        "cashoutAt": 1.05
+      },
+      "createdAt": "2026-10-12T21:38:58.757Z"
+    },
+    {
+      "id": "bet-sim-c5bc18",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 2.8,
+      "payout": 28,
+      "profit": 18,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:38:57.073Z"
+    },
+    {
+      "id": "bet-ff7a6eab",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 1.99,
+      "payout": 19,
+      "profit": 9,
+      "win": true,
+      "details": {
+        "crashPoint": 4.86,
+        "cashoutAt": 1.99
+      },
+      "createdAt": "2026-10-12T21:38:53.249Z"
+    },
+    {
+      "id": "bet-5c004ed3",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "crash",
+      "amount": 10,
+      "multiplier": 1.99,
+      "payout": 19,
+      "profit": 9,
+      "win": true,
+      "details": {
+        "crashPoint": 8.32,
+        "cashoutAt": 1.99
+      },
+      "createdAt": "2026-10-12T21:38:49.259Z"
+    },
+    {
+      "id": "bet-sim-e8d6fc",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "dice",
+      "amount": 20,
+      "multiplier": 2,
+      "payout": 40,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:38:49.072Z"
+    },
+    {
+      "id": "bet-1ba05dc1",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "minesCount": 3,
+        "hitTile": 11,
+        "minePositions": [
+          11,
+          1,
+          16
+        ]
+      },
+      "createdAt": "2026-10-12T21:38:41.780Z"
+    },
+    {
+      "id": "bet-sim-c3e3b8",
+      "playerId": "sim-Notch",
+      "playerUsername": "Notch",
+      "game": "coinflip",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:38:41.072Z"
+    },
+    {
+      "id": "bet-sim-9dec6f",
+      "playerId": "sim-GamerBR_12",
+      "playerUsername": "GamerBR_12",
+      "game": "tower",
+      "amount": 20,
+      "multiplier": 2,
+      "payout": 40,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:38:33.071Z"
+    },
+    {
+      "id": "bet-sim-ce033f",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "dice",
+      "amount": 50,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -50,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:38:25.071Z"
+    },
+    {
+      "id": "bet-4222e324",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 78.99
+      },
+      "createdAt": "2026-10-12T21:38:18.263Z"
+    },
+    {
+      "id": "bet-0f893e23",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 64.36
+      },
+      "createdAt": "2026-10-12T21:38:17.481Z"
+    },
+    {
+      "id": "bet-1e02bbfe",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 59.56
+      },
+      "createdAt": "2026-10-12T21:38:16.659Z"
+    },
+    {
+      "id": "bet-9de63453",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 73.99
+      },
+      "createdAt": "2026-10-12T21:38:15.932Z"
+    },
+    {
+      "id": "bet-39a86675",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 96.44
+      },
+      "createdAt": "2026-10-12T21:38:15.239Z"
+    },
+    {
+      "id": "bet-44296cbf",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 49.25,
+      "payout": 492,
+      "profit": 482,
+      "win": true,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 99.23
+      },
+      "createdAt": "2026-10-12T21:38:14.360Z"
+    },
+    {
+      "id": "bet-99151575",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 45.67
+      },
+      "createdAt": "2026-10-12T21:38:13.491Z"
+    },
+    {
+      "id": "bet-b56479c1",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 26.91
+      },
+      "createdAt": "2026-10-12T21:38:12.599Z"
+    },
+    {
+      "id": "bet-f33cbccb",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 33.26
+      },
+      "createdAt": "2026-10-12T21:38:11.274Z"
+    },
+    {
+      "id": "bet-8abb919b",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 49.25,
+      "payout": 492,
+      "profit": 482,
+      "win": true,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 98.85
+      },
+      "createdAt": "2026-10-12T21:38:10.429Z"
+    },
+    {
+      "id": "bet-1b8e5649",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 34.23
+      },
+      "createdAt": "2026-10-12T21:38:09.735Z"
+    },
+    {
+      "id": "bet-2ec78c2f",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 60.98
+      },
+      "createdAt": "2026-10-12T21:38:08.851Z"
+    },
+    {
+      "id": "bet-6695ad5c",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 49.25,
+      "payout": 492,
+      "profit": 482,
+      "win": true,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 99.88
+      },
+      "createdAt": "2026-10-12T21:38:07.977Z"
+    },
+    {
+      "id": "bet-07a98a06",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 7.8
+      },
+      "createdAt": "2026-10-12T21:38:07.112Z"
+    },
+    {
+      "id": "bet-c714e6dc",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "target": 98,
+        "condition": "over",
+        "roll": 58.38
+      },
+      "createdAt": "2026-10-12T21:38:05.857Z"
+    },
+    {
+      "id": "bet-c859a609",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 1.01,
+      "payout": 10,
+      "profit": 0,
+      "win": true,
+      "details": {
+        "target": 98,
+        "condition": "under",
+        "roll": 72.56
+      },
+      "createdAt": "2026-10-12T21:38:01.308Z"
+    },
+    {
+      "id": "bet-68159ced",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 1.01,
+      "payout": 10,
+      "profit": 0,
+      "win": true,
+      "details": {
+        "target": 98,
+        "condition": "under",
+        "roll": 2.89
+      },
+      "createdAt": "2026-10-12T21:38:00.590Z"
+    },
+    {
+      "id": "bet-ca4f7762",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 1.97,
+      "payout": 19,
+      "profit": 9,
+      "win": true,
+      "details": {
+        "target": 50,
+        "condition": "under",
+        "roll": 35.47
+      },
+      "createdAt": "2026-10-12T21:37:56.234Z"
+    },
+    {
+      "id": "bet-86f449ae",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 1.5,
+      "payout": 15,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 3
+      },
+      "createdAt": "2026-10-12T21:37:54.397Z"
+    },
+    {
+      "id": "bet-97e100f2",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:53.426Z"
+    },
+    {
+      "id": "bet-10a3832d",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:52.117Z"
+    },
+    {
+      "id": "bet-bff09912",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:51.005Z"
+    },
+    {
+      "id": "bet-4ac955b4",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 1.5,
+      "payout": 15,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 8
+      },
+      "createdAt": "2026-10-12T21:37:49.708Z"
+    },
+    {
+      "id": "bet-9eca79a2",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 2,
+      "payout": 20,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 9
+      },
+      "createdAt": "2026-10-12T21:37:46.926Z"
+    },
+    {
+      "id": "bet-c8d194a9",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:46.136Z"
+    },
+    {
+      "id": "bet-cc0ad288",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:45.936Z"
+    },
+    {
+      "id": "bet-a2a98183",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:45.726Z"
+    },
+    {
+      "id": "bet-b8cf3fc3",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:45.534Z"
+    },
+    {
+      "id": "bet-8524e873",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 2,
+      "payout": 20,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 2
+      },
+      "createdAt": "2026-10-12T21:37:45.331Z"
+    },
+    {
+      "id": "bet-5f41e44e",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:45.140Z"
+    },
+    {
+      "id": "bet-sim-2699ef",
+      "playerId": "sim-GamerBR_12",
+      "playerUsername": "GamerBR_12",
+      "game": "roulette",
+      "amount": 250,
+      "multiplier": 14,
+      "payout": 3500,
+      "profit": 3250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:37:45.069Z"
+    },
+    {
+      "id": "bet-3c2befee",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:44.943Z"
+    },
+    {
+      "id": "bet-513e1110",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 2,
+      "payout": 20,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 9
+      },
+      "createdAt": "2026-10-12T21:37:44.734Z"
+    },
+    {
+      "id": "bet-710ae202",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:44.567Z"
+    },
+    {
+      "id": "bet-3658c818",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:44.362Z"
+    },
+    {
+      "id": "bet-034b0273",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 2,
+      "payout": 20,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 9
+      },
+      "createdAt": "2026-10-12T21:37:44.199Z"
+    },
+    {
+      "id": "bet-6fed66ff",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 1.5,
+      "payout": 15,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 8
+      },
+      "createdAt": "2026-10-12T21:37:44.030Z"
+    },
+    {
+      "id": "bet-e1618f14",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 2,
+      "payout": 20,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 9
+      },
+      "createdAt": "2026-10-12T21:37:43.879Z"
+    },
+    {
+      "id": "bet-d9620c88",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:43.706Z"
+    },
+    {
+      "id": "bet-b93a61d0",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:43.546Z"
+    },
+    {
+      "id": "bet-4dcf39c0",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 8.1,
+      "payout": 81,
+      "profit": 71,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 1
+      },
+      "createdAt": "2026-10-12T21:37:43.400Z"
+    },
+    {
+      "id": "bet-3abe8c9b",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:43.226Z"
+    },
+    {
+      "id": "bet-7cd9e949",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:43.056Z"
+    },
+    {
+      "id": "bet-3605d160",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 1.5,
+      "payout": 15,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 3
+      },
+      "createdAt": "2026-10-12T21:37:39.298Z"
+    },
+    {
+      "id": "bet-609605f6",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:39.089Z"
+    },
+    {
+      "id": "bet-df60a850",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:38.720Z"
+    },
+    {
+      "id": "bet-e41d465a",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:38.513Z"
+    },
+    {
+      "id": "bet-c6b9ceb2",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:38.314Z"
+    },
+    {
+      "id": "bet-67e518a8",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:38.105Z"
+    },
+    {
+      "id": "bet-1dc08758",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:37.890Z"
+    },
+    {
+      "id": "bet-537f330e",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:37.666Z"
+    },
+    {
+      "id": "bet-e9bc84f0",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:37.443Z"
+    },
+    {
+      "id": "bet-d69a45da",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:37.243Z"
+    },
+    {
+      "id": "bet-sim-a29a74",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "tower",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:37:37.069Z"
+    },
+    {
+      "id": "bet-5af78d92",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:37.019Z"
+    },
+    {
+      "id": "bet-ee959151",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:36.800Z"
+    },
+    {
+      "id": "bet-a5f7bf3d",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 7
+      },
+      "createdAt": "2026-10-12T21:37:36.607Z"
+    },
+    {
+      "id": "bet-34f6d0c2",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:36.405Z"
+    },
+    {
+      "id": "bet-abc554cc",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.7,
+      "payout": 7,
+      "profit": -3,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 4
+      },
+      "createdAt": "2026-10-12T21:37:36.193Z"
+    },
+    {
+      "id": "bet-686e77c0",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 5
+      },
+      "createdAt": "2026-10-12T21:37:36.009Z"
+    },
+    {
+      "id": "bet-d8004889",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 8.1,
+      "payout": 81,
+      "profit": 71,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 10
+      },
+      "createdAt": "2026-10-12T21:37:35.808Z"
+    },
+    {
+      "id": "bet-144c1933",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:34.987Z"
+    },
+    {
+      "id": "bet-7c6dabca",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 1.5,
+      "payout": 15,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 3
+      },
+      "createdAt": "2026-10-12T21:37:33.789Z"
+    },
+    {
+      "id": "bet-dc58689d",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:37:32.370Z"
+    },
+    {
+      "id": "bet-sim-20e3a4",
+      "playerId": "sim-Notch",
+      "playerUsername": "Notch",
+      "game": "roulette",
+      "amount": 5,
+      "multiplier": 2.8,
+      "payout": 14,
+      "profit": 9,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:37:29.069Z"
+    },
+    {
+      "id": "bet-sim-c36a10",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "plinko",
+      "amount": 100,
+      "multiplier": 2.8,
+      "payout": 280,
+      "profit": 180,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:37:21.067Z"
+    },
+    {
+      "id": "bet-sim-ed987b",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "dice",
+      "amount": 50,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -50,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:37:13.067Z"
+    },
+    {
+      "id": "bet-sim-08703b",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "mines",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:37:05.065Z"
+    },
+    {
+      "id": "bet-sim-5b1653",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "coinflip",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:36:49.065Z"
+    },
+    {
+      "id": "bet-sim-d40145",
+      "playerId": "sim-GamerBR_12",
+      "playerUsername": "GamerBR_12",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:36:41.065Z"
+    },
+    {
+      "id": "bet-sim-268e12",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "slots",
+      "amount": 5,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -5,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:36:33.063Z"
+    },
+    {
+      "id": "bet-sim-702b6d",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "plinko",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:36:25.063Z"
+    },
+    {
+      "id": "bet-sim-3e057d",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "tower",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:36:17.061Z"
+    },
+    {
+      "id": "bet-sim-e245ef",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "dice",
+      "amount": 10,
+      "multiplier": 2.8,
+      "payout": 28,
+      "profit": 18,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:36:01.059Z"
+    },
+    {
+      "id": "bet-sim-7a2e8b",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "tower",
+      "amount": 10,
+      "multiplier": 1.5,
+      "payout": 15,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:35:53.058Z"
+    },
+    {
+      "id": "bet-sim-9620c9",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "dice",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:35:45.057Z"
+    },
+    {
+      "id": "bet-sim-e81412",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "slots",
+      "amount": 100,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -100,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:35:37.057Z"
+    },
+    {
+      "id": "bet-sim-fe39b5",
+      "playerId": "sim-Notch",
+      "playerUsername": "Notch",
+      "game": "slots",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:35:29.056Z"
+    },
+    {
+      "id": "bet-ae10fcd6",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "betType": "red",
+        "rollNumber": 10,
+        "rollColor": "black"
+      },
+      "createdAt": "2026-10-12T21:35:26.933Z"
+    },
+    {
+      "id": "bet-897949a7",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 10,
+      "multiplier": 2,
+      "payout": 20,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "betType": "red",
+        "rollNumber": 4,
+        "rollColor": "red"
+      },
+      "createdAt": "2026-10-12T21:35:20.914Z"
+    },
+    {
+      "id": "bet-sim-e68e5c",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "mines",
+      "amount": 500,
+      "multiplier": 2,
+      "payout": 1000,
+      "profit": 500,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:35:13.055Z"
+    },
+    {
+      "id": "bet-sim-baa8fb",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "roulette",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:35:05.054Z"
+    },
+    {
+      "id": "bet-sim-f7a9fb",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "dice",
+      "amount": 100,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -100,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:34:49.052Z"
+    },
+    {
+      "id": "bet-sim-b7a343",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "plinko",
+      "amount": 5,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -5,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:34:41.051Z"
+    },
+    {
+      "id": "bet-sim-f5f8be",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "tower",
+      "amount": 500,
+      "multiplier": 1.5,
+      "payout": 750,
+      "profit": 250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:34:17.048Z"
+    },
+    {
+      "id": "bet-sim-ef0268",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "coinflip",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:34:01.047Z"
+    },
+    {
+      "id": "bet-sim-49e871",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "plinko",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:33:53.046Z"
+    },
+    {
+      "id": "bet-sim-a7db04",
+      "playerId": "sim-EnderKing",
+      "playerUsername": "EnderKing",
+      "game": "mines",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:33:37.045Z"
+    },
+    {
+      "id": "bet-sim-5ce969",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "tower",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:33:29.044Z"
+    },
+    {
+      "id": "bet-sim-680dd9",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "coinflip",
+      "amount": 500,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -500,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:33:21.044Z"
+    },
+    {
+      "id": "bet-sim-17affd",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "coinflip",
+      "amount": 5,
+      "multiplier": 2,
+      "payout": 10,
+      "profit": 5,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:33:05.042Z"
+    },
+    {
+      "id": "bet-sim-421034",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "plinko",
+      "amount": 250,
+      "multiplier": 1.5,
+      "payout": 375,
+      "profit": 125,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:49.041Z"
+    },
+    {
+      "id": "bet-sim-c471b1",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "coinflip",
+      "amount": 100,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -100,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:41.040Z"
+    },
+    {
+      "id": "bet-sim-a1dd14",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "dice",
+      "amount": 5,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -5,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:33.039Z"
+    },
+    {
+      "id": "bet-sim-e1c750",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "dice",
+      "amount": 5,
+      "multiplier": 5,
+      "payout": 25,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:25.028Z"
+    },
+    {
+      "id": "bet-sim-72dc90",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "crash",
+      "amount": 20,
+      "multiplier": 1.5,
+      "payout": 30,
+      "profit": 10,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:17.028Z"
+    },
+    {
+      "id": "bet-sim-ace4c7",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "roulette",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:09.028Z"
+    },
+    {
+      "id": "bet-sim-716b32",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "coinflip",
+      "amount": 50,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -50,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:32:01.028Z"
+    },
+    {
+      "id": "bet-sim-4aa66e",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "slots",
+      "amount": 5,
+      "multiplier": 5,
+      "payout": 25,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:31:37.026Z"
+    },
+    {
+      "id": "bet-sim-9a2bd5",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 2.8,
+      "payout": 28,
+      "profit": 18,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:31:29.026Z"
+    },
+    {
+      "id": "bet-sim-68942d",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "tower",
+      "amount": 250,
+      "multiplier": 14,
+      "payout": 3500,
+      "profit": 3250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:31:21.025Z"
+    },
+    {
+      "id": "bet-sim-7fbeb6",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "slots",
+      "amount": 500,
+      "multiplier": 1.5,
+      "payout": 750,
+      "profit": 250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:31:13.024Z"
+    },
+    {
+      "id": "bet-sim-2e61e8",
+      "playerId": "sim-RedstoneGod",
+      "playerUsername": "RedstoneGod",
+      "game": "coinflip",
+      "amount": 100,
+      "multiplier": 14,
+      "payout": 1400,
+      "profit": 1300,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:31:05.024Z"
+    },
+    {
+      "id": "bet-sim-0291bc",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "roulette",
+      "amount": 50,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -50,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:30:57.023Z"
+    },
+    {
+      "id": "bet-sim-838e02",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "crash",
+      "amount": 250,
+      "multiplier": 2,
+      "payout": 500,
+      "profit": 250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:30:49.022Z"
+    },
+    {
+      "id": "bet-sim-830e0e",
+      "playerId": "sim-DiamondWolf",
+      "playerUsername": "DiamondWolf",
+      "game": "crash",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:30:41.021Z"
+    },
+    {
+      "id": "bet-sim-dc3888",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "tower",
+      "amount": 500,
+      "multiplier": 1.5,
+      "payout": 750,
+      "profit": 250,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:30:25.018Z"
+    },
+    {
+      "id": "bet-sim-2ecb55",
+      "playerId": "sim-CraftMaster_99",
+      "playerUsername": "CraftMaster_99",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:30:17.017Z"
+    },
+    {
+      "id": "bet-sim-7e63e8",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "coinflip",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:30:01.015Z"
+    },
+    {
+      "id": "bet-50832bdb",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "minesCount": 3,
+        "hitTile": 2,
+        "minePositions": [
+          2,
+          13,
+          12
+        ]
+      },
+      "createdAt": "2026-10-12T21:29:52.771Z"
+    },
+    {
+      "id": "bet-sim-586b1b",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "dice",
+      "amount": 5,
+      "multiplier": 3.5,
+      "payout": 17,
+      "profit": 12,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:29:45.014Z"
+    },
+    {
+      "id": "bet-dae17fa5",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 15,
+      "payout": 150,
+      "profit": 140,
+      "win": true,
+      "details": {
+        "reels": [
+          "star",
+          "star",
+          "star"
+        ]
+      },
+      "createdAt": "2026-10-12T21:29:39.455Z"
+    },
+    {
+      "id": "bet-sim-a73033",
+      "playerId": "sim-MinerPro_BR",
+      "playerUsername": "MinerPro_BR",
+      "game": "slots",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:29:37.014Z"
+    },
+    {
+      "id": "bet-21a7fb74",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "reels": [
+          "star",
+          "gold",
+          "star"
+        ]
+      },
+      "createdAt": "2026-10-12T21:29:36.736Z"
+    },
+    {
+      "id": "bet-064b2398",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "blackjack",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "playerScore": 15,
+        "dealerScore": 17
+      },
+      "createdAt": "2026-10-12T21:29:33.570Z"
+    },
+    {
+      "id": "bet-b4bbfbe1",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "blackjack",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "playerScore": 17,
+        "dealerScore": 18
+      },
+      "createdAt": "2026-10-12T21:29:30.630Z"
+    },
+    {
+      "id": "bet-sim-65df74",
+      "playerId": "sim-CreeperHunter",
+      "playerUsername": "CreeperHunter",
+      "game": "tower",
+      "amount": 20,
+      "multiplier": 2.8,
+      "payout": 56,
+      "profit": 36,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:29:21.012Z"
+    },
+    {
+      "id": "bet-5b47a914",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "plinko",
+      "amount": 10,
+      "multiplier": 0.4,
+      "payout": 4,
+      "profit": -6,
+      "win": false,
+      "details": {
+        "rows": 12,
+        "risk": "medium",
+        "slotIndex": 6
+      },
+      "createdAt": "2026-10-12T21:28:55.654Z"
+    },
+    {
+      "id": "bet-sim-597d22",
+      "playerId": "sim-Herobrine",
+      "playerUsername": "Herobrine",
+      "game": "tower",
+      "amount": 20,
+      "multiplier": 2.8,
+      "payout": 56,
+      "profit": 36,
+      "win": true,
+      "details": {
+        "simulated": true
+      },
+      "createdAt": "2026-10-12T21:28:54.948Z"
+    },
+    {
+      "id": "bet-a6e67572",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "mines",
+      "amount": 10,
+      "multiplier": 1.1,
+      "payout": 11,
+      "profit": 1,
+      "win": true,
+      "details": {
+        "minesCount": 3,
+        "diamondsFound": 1
+      },
+      "createdAt": "2026-10-12T21:28:48.504Z"
+    },
+    {
+      "id": "bet-d8162c65",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 205,
+      "multiplier": 2,
+      "payout": 410,
+      "profit": 205,
+      "win": true,
+      "details": {
+        "betType": "red",
+        "rollNumber": 2,
+        "rollColor": "red"
+      },
+      "createdAt": "2026-10-12T21:25:54.297Z"
+    },
+    {
+      "id": "bet-f11ac046",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 205,
+      "multiplier": 14,
+      "payout": 2870,
+      "profit": 2665,
+      "win": true,
+      "details": {
+        "betType": "white",
+        "rollNumber": 0,
+        "rollColor": "white"
+      },
+      "createdAt": "2026-10-12T21:25:48.607Z"
+    },
+    {
+      "id": "bet-73d24ca2",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 205,
+      "multiplier": 14,
+      "payout": 2870,
+      "profit": 2665,
+      "win": true,
+      "details": {
+        "betType": "white",
+        "rollNumber": 0,
+        "rollColor": "white"
+      },
+      "createdAt": "2026-10-12T21:25:43.900Z"
+    },
+    {
+      "id": "bet-42d09eae",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 205,
+      "multiplier": 14,
+      "payout": 2870,
+      "profit": 2665,
+      "win": true,
+      "details": {
+        "betType": "white",
+        "rollNumber": 0,
+        "rollColor": "white"
+      },
+      "createdAt": "2026-10-12T21:25:39.259Z"
+    },
+    {
+      "id": "bet-87e77818",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "reels": [
+          "diamond",
+          "gold",
+          "apple"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:31.761Z"
+    },
+    {
+      "id": "bet-eb0b242f",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 25,
+      "payout": 250,
+      "profit": 240,
+      "win": true,
+      "details": {
+        "reels": [
+          "sword",
+          "sword",
+          "sword"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:29.479Z"
+    },
+    {
+      "id": "bet-eab2f4f3",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "reels": [
+          "gold",
+          "sword",
+          "diamond"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:27.058Z"
+    },
+    {
+      "id": "bet-2ed95d47",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 5,
+      "payout": 50,
+      "profit": 40,
+      "win": true,
+      "details": {
+        "reels": [
+          "gold",
+          "gold",
+          "gold"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:24.601Z"
+    },
+    {
+      "id": "bet-75a8b7bb",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 3,
+      "payout": 30,
+      "profit": 20,
+      "win": true,
+      "details": {
+        "reels": [
+          "pickaxe",
+          "pickaxe",
+          "pickaxe"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:22.244Z"
+    },
+    {
+      "id": "bet-dc96ef9a",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 5,
+      "payout": 50,
+      "profit": 40,
+      "win": true,
+      "details": {
+        "reels": [
+          "gold",
+          "gold",
+          "gold"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:19.762Z"
+    },
+    {
+      "id": "bet-24d07e62",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 8,
+      "payout": 80,
+      "profit": 70,
+      "win": true,
+      "details": {
+        "reels": [
+          "apple",
+          "apple",
+          "apple"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:17.400Z"
+    },
+    {
+      "id": "bet-3fbc16f2",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "slots",
+      "amount": 10,
+      "multiplier": 50,
+      "payout": 500,
+      "profit": 490,
+      "win": true,
+      "details": {
+        "reels": [
+          "diamond",
+          "diamond",
+          "diamond"
+        ]
+      },
+      "createdAt": "2026-10-12T21:25:14.680Z"
+    },
+    {
+      "id": "bet-35c66d3f",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 110,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -110,
+      "win": false,
+      "details": {
+        "betType": "white",
+        "rollNumber": 9,
+        "rollColor": "black"
+      },
+      "createdAt": "2026-10-12T21:25:06.025Z"
+    },
+    {
+      "id": "bet-38c4e967",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "roulette",
+      "amount": 10,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -10,
+      "win": false,
+      "details": {
+        "betType": "red",
+        "rollNumber": 11,
+        "rollColor": "black"
+      },
+      "createdAt": "2026-10-12T21:14:57.410Z"
+    },
+    {
+      "id": "bet-101",
+      "playerId": "p-diamondking",
+      "playerUsername": "DiamondKing",
+      "game": "roulette",
+      "amount": 50,
+      "multiplier": 2,
+      "payout": 100,
+      "profit": 50,
+      "win": true,
+      "details": {
+        "colorBet": "red",
+        "rollNumber": 3,
+        "rollColor": "red"
+      },
+      "createdAt": "2026-10-12T21:12:44.147Z"
+    },
+    {
+      "id": "bet-102",
+      "playerId": "p-alex",
+      "playerUsername": "Alex_Gamer",
+      "game": "crash",
+      "amount": 25,
+      "multiplier": 3.42,
+      "payout": 85,
+      "profit": 60,
+      "win": true,
+      "details": {
+        "crashPoint": 4.1,
+        "cashoutAt": 3.42
+      },
+      "createdAt": "2026-10-12T21:08:44.147Z"
+    },
+    {
+      "id": "bet-103",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "game": "coinflip",
+      "amount": 20,
+      "multiplier": 0,
+      "payout": 0,
+      "profit": -20,
+      "win": false,
+      "details": {
+        "choice": "diamond",
+        "outcome": "gold"
+      },
+      "createdAt": "2026-10-12T21:04:44.147Z"
+    }
+  ],
+  "balance_logs": [
+    {
+      "id": "log-2711fda1",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "amount": 100,
+      "previousBalance": 220,
+      "newBalance": 320,
+      "reason": "Entregou 100 diamantes na banca no spawn",
+      "adminUsername": "admin",
+      "createdAt": "2026-10-12T21:15:36.715Z"
+    },
+    {
+      "id": "log-1",
+      "playerId": "p-diamondking",
+      "playerUsername": "DiamondKing",
+      "amount": 500,
+      "previousBalance": 950,
+      "newBalance": 1450,
+      "reason": "Depósito entregue na banca do servidor (Spawn)",
+      "adminUsername": "admin",
+      "createdAt": "2026-10-12T19:14:44.147Z"
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "wd-d3ce5ffb",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "amount": 20,
+      "status": "pago",
+      "createdAt": "2026-10-12T21:15:02.639Z",
+      "paidAt": "2026-10-12T21:15:27.360Z",
+      "paidByAdmin": "admin"
+    },
+    {
+      "id": "wd-1",
+      "playerId": "p-steve",
+      "playerUsername": "Steve",
+      "amount": 50,
+      "status": "pendente",
+      "createdAt": "2026-10-12T20:44:44.147Z"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "tr-6d67abf2",
+      "fromPlayerId": "p-steve",
+      "fromUsername": "Steve",
+      "toPlayerId": "p-alex",
+      "toUsername": "Alex_Gamer",
+      "amount": 50,
+      "createdAt": "2026-10-12T21:45:57.193Z"
+    },
+    {
+      "id": "tr-1",
+      "fromPlayerId": "p-diamondking",
+      "fromUsername": "DiamondKing",
+      "toPlayerId": "p-steve",
+      "toUsername": "Steve",
+      "amount": 30,
+      "createdAt": "2026-10-12T20:45:40.528Z"
+    }
+  ],
+  "settings": {
+    "globalWinRatePercent": 48,
+    "minBetDiamonds": 1,
+    "maxBetDiamonds": 10000,
+    "serverName": "Rede Craft Brasil",
+    "serverIp": "jogar.minebet.com.br",
+    "bancaCoordinates": "X: 120, Y: 64, Z: -350 (NPC Banca do Cassino no Spawn)",
+    "depositNotice": "Entregue os diamantes na banca no servidor e aguarde o admin creditar.",
+    "withdrawNotice": "Vá até a banca no servidor para receber seus diamantes.",
+    "gameSettings": {
+      "roulette": {
+        "playerWinChance": 52,
+        "whiteMultiplier": 14
+      },
+      "blackjack": {
+        "dealerWinChance": 65,
+        "naturalBlackjackPayout": 2.5
+      },
+      "crash": {
+        "instantCrashChance": 15,
+        "highFlyChance": 25,
+        "maxCrashCap": 100
+      },
+      "mines": {
+        "gemSafetyFactor": 60
+      },
+      "plinko": {
+        "outerSlotBiasChance": 12
+      },
+      "dice": {
+        "houseEdgePercent": 1.5
+      },
+      "tower": {
+        "trapTriggerRate": 25
+      },
+      "slots": {
+        "jackpotDiamondChance": 5,
+        "generalWinChance": 45
+      },
+      "coinflip": {
+        "playerWinChance": 49
+      }
+    }
+  }
+}

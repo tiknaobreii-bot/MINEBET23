@@ -1,0 +1,6 @@
+{
+  "name": "MineBet - Cassino Minecraft",
+  "description": "Cassino de diamantes para servidor de Minecraft no estilo JonBet e Blaze, com Roleta, Crash, Coin Flip e Slots.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
