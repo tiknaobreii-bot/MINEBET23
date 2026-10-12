@@ -2,6 +2,11 @@ import { Player, Bet, BalanceLog, Withdrawal, Settings, AdminStats, Transfer, Ga
 
 const PLAYER_TOKEN_KEY = 'minebet_player_token';
 const ADMIN_TOKEN_KEY = 'minebet_admin_token';
+const API_BASE_URL = import.meta.env.VITE_API_URL || (
+  window.location.hostname === 'localhost' && window.location.port !== '3000'
+    ? 'http://localhost:3000'
+    : ''
+);
 
 export function getPlayerToken(): string | null {
   return localStorage.getItem(PLAYER_TOKEN_KEY);
@@ -34,7 +39,7 @@ async function request<T>(path: string, options: RequestInit = {}, isAdmin = fal
 
   let res: Response;
   try {
-    res = await fetch(path, {
+    res = await fetch(`${API_BASE_URL}${path}`, {
       ...options,
       headers,
     });
