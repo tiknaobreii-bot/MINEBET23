@@ -32,14 +32,20 @@ async function request<T>(path: string, options: RequestInit = {}, isAdmin = fal
     headers['Authorization'] = `Bearer ${token}`;
   }
 
-  const res = await fetch(path, {
-    ...options,
-    headers,
-  });
+  let res: Response;
+  try {
+    res = await fetch(path, {
+      ...options,
+      headers,
+    });
+  } catch {
+    throw new Error('Não foi possível conectar ao servidor. Tente novamente em alguns instantes.');
+  }
 
-  const data = await res.json().catch(() => ({}));
+  const contentType = res.headers.get('content-type') || '';
+  const data = contentType.includes('application/json') ? await res.json().catch(() => ({})) : {};
   if (!res.ok) {
-    throw new Error(data.error || 'Erro na requisição com o servidor.');
+    throw new Error(data.error || `O servidor respondeu com erro (${res.status}).`);
   }
 
   return data as T;
