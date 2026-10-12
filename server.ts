@@ -475,7 +475,7 @@ app.post('/api/auth/register', (req, res) => {
     id: 'p-' + crypto.randomUUID().slice(0, 8),
     username: cleanUser,
     password: password,
-    balance: 50, // Welcome bonus of 50 diamonds for initial server engagement
+    balance: 0,
     winRatePercent: null,
     createdAt: new Date().toISOString(),
     lastLoginAt: new Date().toISOString()

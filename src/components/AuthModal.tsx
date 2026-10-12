@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, User, Lock, ArrowRight, Loader2, Gem, Sparkles } from 'lucide-react';
+import { X, User, Lock, ArrowRight, Loader2, Gem } from 'lucide-react';
 import { api } from '../api';
 import { Player } from '../types';
 import { sounds } from '../utils/audio';
@@ -162,13 +162,6 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                 <Lock className="w-4 h-4 text-slate-500 absolute left-3 top-3" />
               </div>
             </div>
-
-            {mode === 'register' && (
-              <div className="flex items-center gap-2 p-2.5 bg-cyan-950/40 rounded-xl border border-cyan-500/20 text-[11px] text-cyan-300">
-                <Sparkles className="w-4 h-4 text-cyan-400 shrink-0" />
-                <span>Bônus de boas-vindas: 50 diamantes para começar a jogar!</span>
-              </div>
-            )}
 
             <button
               type="submit"
