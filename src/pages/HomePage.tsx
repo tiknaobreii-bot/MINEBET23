@@ -2,6 +2,9 @@ import React from 'react';
 import { Player } from '../types';
 import { LiveBetsFeed } from '../components/LiveBetsFeed';
 import { sounds } from '../utils/audio';
+import heroImage from '../assets/images/minebet_hero_diamonds_1791839124367.jpg';
+import minesImage from '../assets/images/blaze_mines_diamonds_1791840017858.jpg';
+import plinkoImage from '../assets/images/blaze_plinko_pyramid_1791840026909.jpg';
 import { 
   CircleDot, 
   Rocket, 
@@ -40,7 +43,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       color: 'from-cyan-500/20 via-slate-900 to-[#101522]',
       border: 'hover:border-cyan-500/50',
       badgeColor: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30',
-      bannerImg: '/src/assets/images/blaze_mines_diamonds_1791840017858.jpg',
+      bannerImg: minesImage,
     },
     {
       id: 'crash',
@@ -71,7 +74,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       color: 'from-sky-500/20 via-slate-900 to-[#101522]',
       border: 'hover:border-sky-500/50',
       badgeColor: 'bg-sky-500/20 text-sky-300 border-sky-500/30',
-      bannerImg: '/src/assets/images/blaze_plinko_pyramid_1791840026909.jpg',
+      bannerImg: plinkoImage,
     },
     {
       id: 'dice',
@@ -132,7 +135,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       <div className="relative rounded-3xl overflow-hidden border border-slate-800 bg-[#0d121c] shadow-2xl">
         <div className="relative h-64 sm:h-80 lg:h-96 w-full overflow-hidden">
           <img
-            src="/src/assets/images/minebet_hero_diamonds_1791839124367.jpg"
+            src={heroImage}
             alt="MineBet Cassino de Minecraft"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center filter brightness-90 contrast-105"
@@ -195,7 +198,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           className="relative rounded-2xl overflow-hidden border border-cyan-500/40 bg-slate-950 cursor-pointer group hover:border-cyan-400 transition-all shadow-xl h-48 sm:h-56 flex flex-col justify-end p-5"
         >
           <img
-            src="/src/assets/images/blaze_mines_diamonds_1791840017858.jpg"
+            src={minesImage}
             alt="Mines Blaze"
             referrerPolicy="no-referrer"
             className="absolute inset-0 w-full h-full object-cover filter brightness-75 group-hover:scale-105 transition-transform duration-500"
@@ -221,7 +224,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           className="relative rounded-2xl overflow-hidden border border-sky-500/40 bg-slate-950 cursor-pointer group hover:border-sky-400 transition-all shadow-xl h-48 sm:h-56 flex flex-col justify-end p-5"
         >
           <img
-            src="/src/assets/images/blaze_plinko_pyramid_1791840026909.jpg"
+            src={plinkoImage}
             alt="Plinko JonBet"
             referrerPolicy="no-referrer"
             className="absolute inset-0 w-full h-full object-cover filter brightness-75 group-hover:scale-105 transition-transform duration-500"
